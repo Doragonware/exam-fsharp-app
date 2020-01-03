@@ -7,8 +7,8 @@ type Serie =
 
 
 type ISeriesService =
-    abstract GetAllSeries: unit -> Serie list
-    abstract GetSerie: int -> Serie
+    abstract member GetAllSeries: unit -> Serie list
+    abstract member GetSerie: int -> Serie
 
 type SeriesService() =
 
