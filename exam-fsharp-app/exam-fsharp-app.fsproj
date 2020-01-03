@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>exam_fsharp_app</RootNamespace>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="SeriesService.fs" />
+    <Compile Include="Controllers\SeriesController.fs" />
+    <Compile Include="Startup.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
